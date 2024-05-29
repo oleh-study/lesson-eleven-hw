@@ -1,0 +1,161 @@
+body {
+    font-family: "Avenir";
+    margin: 0px;
+    background-color: #ececd4;
+}
+
+main {
+    display: flex;
+}
+
+/* sidebar styles start */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececd4;
+    width: 400px;
+    padding: 8px;
+    color: #0a3f23;
+}
+
+.sidebar .contact,
+.sidebar .education,
+.sidebar .skills,
+.sidebar .language {
+    margin-bottom: 30px;
+}
+
+.sidebar img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #0a3f23;
+    background-color: #ececd4;
+    align-self: center;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.sidebar img:hover {
+    scale: 120%;
+    padding: 0px;
+}
+
+.sidebar .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .title {
+    font-size: x-large;
+    font-weight: 500;
+    color: #0a3f23;
+}
+
+.sidebar hr {
+    height: 2px;
+    border: none;
+    background-color: #0a3f23;
+}
+
+.sidebar .contact .row,
+.sidebar .education .row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar svg {
+    padding: 5px 10px;
+}
+
+.sidebar .row a {
+    text-decoration: none;
+    color: #0a3f23;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.sidebar .row a:hover {
+    border-bottom: 2px solid #0a3f23;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar .language ul li span {
+    font-weight: bold;
+}
+
+.sidebar .skills li:nth-child(1),
+.sidebar .skills li:nth-child(3) {
+    font-weight: bold;
+}
+
+/* sidebar styles end */
+
+.content {
+    width: fit-content;
+    background-color: #0a3f23;
+    color: #ececd4;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content hr {
+    height: 2px;
+    border: none;
+    background-color: #ececd4;
+}
+
+.content .name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content .profile,
+.content .experience,
+.content .reference {
+    margin-top: 30px;
+}
+
+.content .name span:first-child,
+.content .name span:nth-child(2) {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.content .name span:nth-child(2) {
+    font-weight: bold;
+}
+
+.content .name span:last-child {
+    display: block;
+    font-size: x-large;
+}
+
+.content .title {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.content .experience .row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.content .experience .row span:nth-child(2) {
+    font-size: large;
+    font-weight: bold;
+}
+
+.content .experience .row span:nth-child(3) {
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
