@@ -90,8 +90,8 @@ main {
     font-weight: bold;
 }
 
-.sidebar .skills li:nth-child(1),
-.sidebar .skills li:nth-child(3) {
+.sidebar .skills ul li:nth-child(1),
+.sidebar .skills ul li:nth-child(3) {
     font-weight: bold;
 }
 
